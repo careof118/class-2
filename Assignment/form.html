@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Form</title>
+    </header>
+
+    <body>
+
+        <h2>Fill in the form below, and we will be in touch shortly</h2>
+        
+        <br>
+         <form> 
+
+            <fieldset>
+                <legend style="color: brown;">Contact Form </legend>
+
+                <!-- Name -->
+            
+                <label for="firstName">Name</label>
+                <span style="color: red;">*</span>
+                <input id="firstName" type="text" placeholder="Your Name" required />
+       
+                <br><br>
+
+                <!-- Email -->
+
+                <label for="email">Email</label>
+                <span style="color: red;">*</span>
+                <input id="email" type="email" placeholder="Your Email Address" required />
+
+                <br><br>
+                   
+                <!-- Phone Number -->
+                <label for="numberPhone">Phone Number</label>
+                <span style="color: red;">*</span>
+                <input id="numberPhone" type="number">
+
+                <br><br>
+                 
+                <!-- Slect Your Country -->
+                <label for="country">Select Your Country</label>
+                <select id="country">
+                    
+                    <option value="">--Select Country</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+
+                </select>
+               
+                <br><br>
+
+               <!-- Radio -->
+               <label for="radio">Gender</label>
+               <br>
+               <input type="radio" name="gender" id="male" />
+               <label for="male">Male</label>
+
+               <input type="radio" id="female" name="gender">
+               <label for="female">Female</label>
+
+               <br><br>
+
+               <!-- Date of Birth -->
+               <label for="birth">Date of Birth</label>
+               <input id="birth" type="date">
+
+               <br><br>
+
+               <!-- Upload -->
+               <label for="upload">File Upload</label>
+               <input id="upload" type="file" accept="image/*" multiple />
+
+               <br><br>
+
+               <!-- comment -->
+               <label for="comment">Message</label>
+               <br>
+               <textarea id="comment" cols="30" rows="4" placeholder="Hi...."></textarea>
+
+               <br><br>
+                 
+                <!-- Password -->
+
+                <label for="password">Password</label>
+                <input id="password" type="password"/>
+
+                <br><br> 
+
+                <!-- Color Picker -->
+                
+                <label for="color">Color Picker</label>
+                <input type="color" id="color" />
+
+
+                <br><br>
+
+                <!-- Term and condition -->
+ 
+                <input type="checkbox" id="term" required />
+                <label for="term">Agree to terms and condition</label>
+                <span style="color: red;">*</span>
+
+                <br><br> 
+
+                <!-- Submit -->
+
+                <input type="submit" value="Send" />
+                <input type="reset" />
+
+                <input type="submit" value="Send">
+
+                
+
+
+            </fieldset>
+
+         </form>
+
+
+        
+    </body>
+</html>
